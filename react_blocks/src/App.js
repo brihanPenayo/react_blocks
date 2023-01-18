@@ -1,10 +1,12 @@
-import './App.css';
+import styles from './App.module.css';
 
-function App() {
+const App = props => {
+  const { children } = props;
   return (
-    <div className="App">
+    <div className={styles.app}>
+      {children}
     </div>
-  );
+  )
 }
 
 export default App;

@@ -1,0 +1,8 @@
+.boxYellow {
+    background-color: #ffd966;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}

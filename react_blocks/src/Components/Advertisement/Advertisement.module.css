@@ -1,0 +1,7 @@
+.Ad {
+    background-color: #b4a7d6;
+    grid-area: adv;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

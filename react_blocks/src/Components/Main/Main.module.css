@@ -1,0 +1,12 @@
+.boxMain {
+    background-color: #e06666;
+    flex: 3;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+        "1fr 1fr 1fr"
+        "adv adv adv";
+    grid-template-rows: 3fr 100px;
+    gap: 2rem;
+    padding: 2rem;
+}
