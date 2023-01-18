@@ -5,4 +5,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 200ms ease;
+}
+
+.Header:hover {
+    transform: scale(1.025);
+    user-select: none;
+    cursor: pointer;
 }

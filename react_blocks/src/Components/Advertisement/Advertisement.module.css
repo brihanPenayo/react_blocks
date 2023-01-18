@@ -4,4 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 200ms ease;
+}
+
+.Ad:hover {
+    transform: scale(1.025);
+    user-select: none;
+    cursor: pointer;
 }
