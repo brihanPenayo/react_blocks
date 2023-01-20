@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     <App>
       <Header />
-      <Contenedor>
+      <Contenedor tipo="row">
         <Navigation />
         <Main>
           <SubContent />
